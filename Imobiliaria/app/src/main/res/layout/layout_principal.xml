@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/fundo_imobiliaria">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:text="@string/app_name"
+        android:textSize="40sp"
+        android:gravity="center"/>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width='wrap_content'
+                android:layout_height="wrap_content"
+                android:text="@string/nome_cadastro" />
+
+            <EditText
+                android:id="@+id/campoNome"
+                android:layout_width='250dp'
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width='wrap_content'
+                android:layout_height="wrap_content"
+                android:text="@string/regiao_cadastro" />
+
+            <EditText
+                android:id="@+id/campoRegiao"
+                android:layout_width='250dp'
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_height="100px"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageButton
+        android:id="@+id/imagemBotao"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/seta"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>

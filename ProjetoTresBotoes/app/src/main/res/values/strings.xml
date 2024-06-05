@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjetoTresBotoes</string>
+    <string name="programa_botoes">Programa dos três botôes</string>
+    <string name="f1">Função misteriosa 1</string>
+    <string name="f2">Função misteriosa 2</string>
+    <string name="f3">Função misteriosa 3</string>
+</resources>

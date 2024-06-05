@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GerenciaArtigos</string>
+    <string-array name="estadoVetor">
+        <item>Produção</item>
+        <item>Revisão</item>
+        <item>Aguardando publicação</item>
+        <item>Publicado</item>
+    </string-array>
+</resources>
+
+

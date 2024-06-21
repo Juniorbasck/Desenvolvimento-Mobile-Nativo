@@ -6,4 +6,8 @@
     </style>
 
     <style name="Theme.TestAplication" parent="Base.Theme.TestAplication" />
+
+    <style name="Theme.AtividadeAvaliativa19_04" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.AtividadeAvaliativa1904" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>

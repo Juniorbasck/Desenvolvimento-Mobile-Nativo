@@ -38,4 +38,8 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openFormsActivity(View view){
+        Intent intent = new Intent(this, FormActivity.class);
+        startActivity(intent);
+    }
 }
